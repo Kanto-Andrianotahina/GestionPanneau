@@ -8,6 +8,22 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+
+//        coupure date get the hour
+/*        String dateString = "2023-12-16";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        LocalDate localDate = LocalDate.parse(dateString, formatter);
+        Date date = new Date(Date.valueOf(localDate).getTime());
+        Coupuresecteur coupuresecteur = new Coupuresecteur();
+        Coupuresecteur infocoupure = coupuresecteur.getInfoCoupureSecteur("SEC0001",date);
+        System.out.println("id " +infocoupure.getId());
+        System.out.println("date " +infocoupure.getDate());
+        System.out.println("Secteur " +infocoupure.getSecteur());
+        System.out.println("Coupure " +infocoupure.getCoupuredate());
+*/
+
+
+
 //        get pointage of all past days  for  each salle in sector
 /*   String dateString = "2023-12-30";
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
